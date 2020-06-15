@@ -1,0 +1,261 @@
+  html{
+    box-sizing: border-box;
+    background: #eeeeee;
+    font-family: '';
+    font-size: 11px;
+    font-weight: 200;
+    margin: 0px;
+}
+
+body{
+    margin: 0;
+}
+
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+nav {
+    font-variant: small-caps;
+    font-family: "Roboto", serif;
+    background: #2874f0;
+   display:inline-block;
+    top: 0;
+    width: 100%;
+    height: 55px;
+    transition: all 0.5s;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1px;
+}
+nav h2{
+color:white;
+}
+#login{
+  
+    margin: 3px 40px 3px;
+    width:90px;
+     padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+body.fixed-nav nav{
+    position: fixed;
+    box-shadow: 0 5px rgba(0,0,0,0.1);
+}
+
+.fixed-nav{
+    max-width: 1500px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.list1{
+    margin-left: 200px;
+}
+
+label{
+    color: white;
+    font-size: 20px;
+}
+
+nav li{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+nav a{
+    color:white;
+}
+.search{
+    display: inline-block;
+    box-shadow:0 2px 4px 0 rgba(0,0,0,.23);
+    width: 100%;
+    height: 36px;
+    max-width: 564px;
+    position: relative;
+    background-color: white;
+    margin: 0 0 0 3px;
+}
+
+input.find{
+    width: 500px;
+    height: 36px;
+    border: 0px white;
+    text-align: left;
+}
+
+.submit{
+    background-color: white;
+    border: 0;
+    margin: 0;
+    color: #2874f0;
+    height: 36px;
+    width: 30px;
+    font-size: 20px;
+}
+
+#plus{
+font-size: 10px;
+    text-align: left; 
+    color: yellow;
+    margin-top: 0;
+}
+nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+ .nav2{
+    background: rgb(241, 240, 240);
+    color: #212121;
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    text-align: center;
+
+}
+
+.nav2 a{
+    color: #212121;
+    font-size: 14px;
+    padding-top: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 35px;
+    font-family: Roboto,Arial,sans-serif;
+    opacity: 0.8;
+    text-decoration: none;
+    
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-top: 0;
+    margin-right: 0px;
+    opacity: 0.3;
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+.nav2 a:hover{
+    color: #2874f0;
+    text-decoration: none;
+}
+
+.site-wrap {
+    max-width: 1500px;
+    margin: 0;
+    background: white;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.05);
+    transform: scale(0.98);
+    transition: transform 0.5s;
+    opacity: 0.6;
+}
+.site-wrap a{
+   color:grey;
+}
+.arrow1 {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 3px;
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+
+header img{
+     width: 100%;
+    border: 0px solid;
+    height: 100px;
+    padding-bottom: 10px;
+}
+
+.carousel-item img{
+    width: 100%;
+    border: 0px solid;
+    height: 300px;
+    padding-bottom: 10px;
+}
+
+.card{
+    height: 320px;
+    background: #fcfcfc;
+    
+}
+
+.card img{
+    height: 60%;
+    width: 450px;
+    align-items: center;
+   overflow: hidden;
+   margin-top: 6px;
+   justify-content: center;
+   margin-right: 0px;
+}
+.ad img{
+height:320px;
+width:100%;    
+}
+footer{
+     background-color: #172337;
+    color:#d5d5d5;
+    padding-top:2rem;
+    padding-bottom:3rem
+    text-align: justify;
+    font-family: 'helvetica neue';
+    font-size: 11px;
+}
+
+
+footer h7{
+   
+color:#878787;
+}
+footer a{
+color:white;
+}
+hr.light{
+    border-top: 0.5px solid #878787;
+  width: 100%;
+  margin-top: .8rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+.line {
+    border-left: 1px solid #878787;
+    height: 133px;
+    margin-top: 20px;
+  }
+h2{
+    color:black;
+    text-align: left;
+    margin-bottom: 0; 
+    padding-bottom: 0;
+}
+.footnav{
+display:inline-flex;
+}
